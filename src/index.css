@@ -6,7 +6,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.Layout {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+.Header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.content {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.logo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
 
+li {
+  display: inline;
+  padding: 8px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
