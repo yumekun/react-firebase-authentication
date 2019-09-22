@@ -13,7 +13,7 @@ import Logo from "../Logo";
 const App = () => (
   <Router>
     <div className="Layout">
-      <div className="Header">
+      <div className="header">
         <Logo />
         <Navigation />
         <hr />
